@@ -1,0 +1,51 @@
+<template>
+     <nav>
+        <v-toolbar>
+            <v-toolbar-title>
+                <spam>SWLibre</spam>
+                <span class="font-weight-light">WebPage</span>
+            </v-toolbar-title>
+            <v-btn
+              color="indigo"
+              to="/"
+            >
+              Main Page
+            </v-btn>
+            <v-btn
+              dark
+              to="/courses"
+            >
+              Courses
+            </v-btn>
+            <v-btn
+              color="pink"
+              dark
+              to="/team"
+            >
+              Team
+            </v-btn>
+            <v-btn
+              color="green"
+              dark
+              to="/error"
+            >
+              Forms
+            </v-btn>
+            <v-btn
+              color="orange"
+              dark
+              to="/error"
+            >
+              Login
+            </v-btn>
+            <v-btn
+              color="cyan"
+              dark
+              to="/about"
+            >
+              About
+            </v-btn>
+
+        </v-toolbar>
+     </nav>
+</template>
