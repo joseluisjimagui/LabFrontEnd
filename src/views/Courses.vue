@@ -1,6 +1,6 @@
 <template>
     <div class="mx-10 my-10">
-        <h1>This is Courses</h1>
+        <h1>Cursos</h1>
     </div>
     <div class="mx-15 my-15">
         <v-card
@@ -12,9 +12,8 @@
             <v-card-title
                 class="text-h5"                
             >
-            Repositorios
+            Repositorios con Git y GitHub
             <v-chip-group
-                v-model="selection"
                 active-class="deep-purple accent-4 white--text"
                 column
             >
@@ -24,15 +23,19 @@
             </v-chip-group>
             </v-card-title>
 
-            <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</v-card-text>
+            <v-card-text>
+                Git es un Sistema de Control de Versiones Distribuido (DVCS) utilizado para guardar diferentes versiones de un archivo (o conjunto de archivos) para que cualquier versión sea recuperable cuando lo desee.
+                GitHub es una plataforma basada en la web donde los usuarios pueden alojar repositorios Git. Facilita compartir y colaborar fácilmente en proyectos con cualquier persona en cualquier momento.
+            </v-card-text>
 
             <v-card-actions>
                 <v-btn                    
                 class="ml-2 mt-3"
                 right
+                to="/error"
                 >
                 <v-icon>mdi-play</v-icon>
-                <span>Registrarse</span>
+                <span >Registrarse</span>
                 </v-btn>                  
             </v-card-actions>
             </div>
@@ -42,7 +45,7 @@
             size="125"
             tile
             >
-            <v-img src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_f0b606abb6d19089febc9faeeba5bc05/nodejs-development-services.png"></v-img>
+            <v-img src="https://www.biteinteractive.com/wp-content/uploads/2021/05/git-vs-github.png"></v-img>
             </v-avatar>
         </div>
         </v-card>
@@ -59,7 +62,6 @@
             >
             Programacion Web
             <v-chip-group
-                v-model="selection"
                 active-class="deep-purple accent-4 white--text"
                 column
             >
@@ -73,12 +75,18 @@
             </v-chip-group>
             </v-card-title>
 
-            <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</v-card-text>
+            <v-card-text>
+                HTML, CSS y JavaScript son los tres lenguajes que dominan la creación de todo sitio web, al menos en su parte visual e interactiva. Aquí conocerás qué son y cómo funciona cada uno.
+                HTML (HyperText Markup Language) no es un lenguaje de programación. Es un lenguaje de marcado que describe cómo debe mostrarse el contenido en la web asignando etiquetas al contenido. 
+                Las hojas de estilo en cascada (CSS) son una forma de describir el aspecto y el comportamiento de una página web mediante un texto sencillo y fácil de entender.
+                JavaScript es un lenguaje de programación que permite a los desarrolladores crear páginas web interactivas y dinámicas. Puede utilizarse para crear animaciones, juegos y todo tipo de aplicaciones interesantes en la web.
+            </v-card-text>
 
             <v-card-actions>
                 <v-btn                    
                 class="ml-2 mt-3"
                 right
+                to="/error"
                 >
                 <v-icon>mdi-play</v-icon>
                 <span>Registrarse</span>
@@ -91,7 +99,7 @@
             size="125"
             tile
             >
-            <v-img src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_f0b606abb6d19089febc9faeeba5bc05/nodejs-development-services.png"></v-img>
+            <v-img src="https://blog.facialix.com/wp-content/uploads/2022/08/html-css-javascript.jpg"></v-img>
             </v-avatar>
         </div>
         </v-card>
@@ -108,7 +116,6 @@
             >
             The magic of VueJS
             <v-chip-group
-                v-model="selection"
                 active-class="deep-purple accent-4 white--text"
                 column
             >
@@ -119,12 +126,16 @@
             </v-chip-group>
             </v-card-title>
 
-            <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</v-card-text>
+            <v-card-text>
+                Vue.js (también llamado Vue o VueJS) es un framework progresivo Javascript para crear interfaces de usuario, o en otras palabras, se trata de una «capa» añadida a Javascript formada por herramientas, convenciones de trabajo y un lenguaje particular que nos permite crear aplicaciones de forma rápida, agradable, sencilla y muy práctica.
+Tiene varias características que lo definen principalmente. Si tu proyecto o finalidad encaja con dichas características, Vue será una buena elección para ti. 
+            </v-card-text>
 
             <v-card-actions>
                 <v-btn                    
                 class="ml-2 mt-3"
                 right
+                to="/error"
                 >
                 <v-icon>mdi-play</v-icon>
                 <span>Registrarse</span>
@@ -137,7 +148,7 @@
             size="125"
             tile
             >
-            <v-img src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_f0b606abb6d19089febc9faeeba5bc05/nodejs-development-services.png"></v-img>
+            <v-img src="https://miro.medium.com/max/900/1*OrjCKmou1jT4It5so5gvOA.jpeg"></v-img>
             </v-avatar>
         </div>
         </v-card>

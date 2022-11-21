@@ -7,15 +7,34 @@
         justify="center"
         no-gutters
       >
-        <v-btn
-          v-for="link in links"
-          :key="link"
+        <v-btn          
           color="white"
-          text
-          rounded
+          icon
+          dark
           class="my-2"
+          @click="gotoPage('https://www.facebook.com/softwarelibrebuap')"
         >
-          {{ link }}
+          <v-icon size="50px">
+            mdi-facebook
+          </v-icon>
+        </v-btn>
+        <v-btn          
+          color="white"
+          icon
+          dark
+          class="my-2"
+          @click="gotoPage('https://www.cs.buap.mx')"
+        >
+          FCC
+        </v-btn>
+        <v-btn          
+          color="white"
+          icon
+          dark
+          class="my-2"
+          @click="gotoPage('https://www.buap.mx')"
+        >
+          BUAP
         </v-btn>
         <v-col
           class="primary lighten-2 py-4 text-center white--text"
@@ -36,5 +55,10 @@ export default {
       'BUAP',
     ],
   }),
+  methods: {
+    gotoPage(URL) {
+      window.open(URL);
+    },
+  },
 }
 </script>

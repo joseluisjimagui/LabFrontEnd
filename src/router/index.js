@@ -47,6 +47,11 @@ const routes = [
     name: 'Login',   
     component: () => import('../views/Login.vue')
   },
+  {
+    path: '/facebook',
+    name: 'Facebook',   
+    component: () => import('../views/Facebook.vue')
+  },
 ]
 
 const router = createRouter({

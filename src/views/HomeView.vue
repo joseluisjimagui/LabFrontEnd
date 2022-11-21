@@ -9,7 +9,9 @@
       >
         <v-col lg="2">
           <h2>#WeAreLinux</h2>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>
+            Somos diversidad, creatividad, fuertes, empoderamiento, independientes, valientes, somos libres. Esta es la bandera la cual portamos con orgullo y nos distingue de los demas. ¿Cual es la tuya?
+          </p>
         </v-col>
         <v-col lg="4">
           <v-img src="https://www.adslzone.net/app/uploads-adslzone.net/2020/01/aperlinux.jpg">
@@ -19,7 +21,11 @@
       </v-row>
     </div>
     <div class="my-10">
-      <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+      <p>
+        Es el software que respeta la libertad de los usuarios y la comunidad. A grandes rasgos, significa que los usuarios tienen la libertad de ejecutar, copiar, distribuir, estudiar, modificar y mejorar el software. Es decir, el «software libre» es una cuestión de libertad, no de precio.
+        Promovemos estas libertades porque todos merecen tenerlas. Con estas libertades, los usuarios (tanto individualmente como en forma colectiva) controlan el programa y lo que este hace. 
+        Un programa que no es libre controla a los usuarios, y el programador controla el programa, con lo cual el programa resulta ser un instrumento de poder injusto.
+      </p>
     </div>
     <div>      
       <v-carousel>
@@ -45,16 +51,16 @@ export default defineComponent({
     return {
       items: [
         {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+          src: 'https://scontent.fpbc2-3.fna.fbcdn.net/v/t39.30808-6/302444798_724577806035487_7967304609633238418_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_ohc=j-dfsY5Lm4AAX_X7XTs&tn=MLwLnqLbws5pXruQ&_nc_ht=scontent.fpbc2-3.fna&oh=00_AfAd99sa8uipzaKTRuorF-7XouEsIiV8kVb439uJntIKXA&oe=63815838',
         },
         {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+          src: 'https://live.mrf.io/statics/i/ps/www.muylinux.com/wp-content/uploads/2009/04/logos-distros.jpg?width=1200&enable=upscale',
+        },        
+        {
+          src: 'https://www.camaracivica.com/wp-content/uploads/2017/07/GNULinux-e1500545467630.png',
         },
         {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
-        },
-        {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+          src: 'https://img.blogs.es/anexom/wp-content/uploads/2014/02/distribuciones-linux.jpg',
         },
       ],
     }

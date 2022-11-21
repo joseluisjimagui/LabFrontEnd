@@ -23,7 +23,7 @@
       <h1>Page still in progress.</h1>      
     </v-row>
     <v-row justify="center">            
-      <h2>Please come back later or reach us vie email for more updates.</h2>
+      <h2>Please come back later or reach our Facebook for more updates.</h2>
     </v-row>
     
   </div>
